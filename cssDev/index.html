@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>A Dog</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="feel">Feel a dog</h1>
+		</div>
+		<div class="content">
+
+			<div class="dog-text">
+				<h1 style="display:inline-block; margin:0;">I</h1>n the quiet of twilight, a feline silhouette prowls, embodying grace and mystery. With eyes that gleam like orbs of polished jade, it navigates the world with an elegant stride, each step a dance of precision and poise.
+
+				<p>Soft fur, a tapestry of hues ranging from midnight black to the palest moonlight, cloaks its form, a testament to nature's artistry. Each whisker trembles with anticipation, attuned to the whispers of the night.
+			</div>
+			<div class="dog-img">
+				<img src="dog-img.jpg" class="dog">
+			</div>			
+		</div>		
+		<div class="footer">
+			<p>All &#169 copyrights reserved</p>
+		</div>	
+	</div>
+	<script type="text/javascript">
+		var feel = document.querySelector(".feel");
+		feel.addEventListener("click", function(){
+			alert(feel.innerHTML);
+		});
+	</script>
+</body>
+</html>
